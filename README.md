@@ -86,6 +86,7 @@
   **Example Model**
 
   ```js
+  // Model นี้ ยกเป็นตัวอย่างการ define และทำ relation เท่านั้น ไม่จำเป็นต้องใช้ร่วมกับโจทย์ก็ได้
   const User = sequelize.define('User', {
     id: Sequelize.INTEGER,
     name: Sequelize.STRING,
